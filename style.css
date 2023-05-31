@@ -30,6 +30,7 @@ ul {
 }
 
 a{
+    font-size: 18px;
     text-decoration: none;
     font-weight: bold;
     color: #fff;
@@ -53,6 +54,7 @@ a:hover{
 }
 
 .content-description{
+    font-size: 18px ;
     max-width: 650px;
     margin-top: 20px;
 }
@@ -120,5 +122,8 @@ a:hover{
 
 
 .footer{
+    text-align: center;
+    color: #fff; 
     background-color: #1f2937;
+    padding: 1.5rem;
 }
