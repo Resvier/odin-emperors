@@ -63,7 +63,7 @@ a:hover{
     height: 250px;
 }
 
-.content-text button{
+button{
     color: #fff;
     background-color: #3882f6;
     padding: 8px;
@@ -135,7 +135,46 @@ a:hover{
     font-weight: bold;
 }
 
+.section-four{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:100px;
+}
+.box-container{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 50px 0;
+    width: 80%;
+    border-radius: 10px;
+}
 
+.container-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.container-text{
+    font-size: 18px;
+}
+
+.box-container button{
+    border: 3px solid white;
+    width: 100px;
+    height: fit-content;
+    margin: 0;
+    align-self: center;
+}
+
+button:hover{
+    transition: 0.3s ease;
+    font-weight: bold;
+    box-shadow: 2px 2px #fff;
+    cursor: pointer;
+}
 
 .footer{
     text-align: center;
