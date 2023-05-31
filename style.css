@@ -16,7 +16,7 @@ body{
     padding: 10px;
 }
 
-.title{
+#title{
     color: #dcc992;
     font-size: 25px;
     font-weight: bold;
